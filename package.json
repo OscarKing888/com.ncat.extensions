@@ -1,0 +1,17 @@
+{
+  "name": "com.ncat.extensions",
+  "version": "0.1.0",
+  "displayName": "NCat Gameframeworks",
+  "description": "This packages includes helpful extensions to Unity.",
+  "unity": "2021.3",
+  "keywords": [
+    "Utilities",
+    "Utils",
+    "NCat",
+    "Extensions"
+  ],
+  "author": {
+    "name": "Naughty Cat Games",
+    "email": "NaughtyCatGames@gmail.com"
+  }
+}
