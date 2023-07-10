@@ -12,7 +12,7 @@ public static class RemoteSettingsEx
         {
             string str = RemoteSettings.GetString(key, defaultStr);
 #if DEVELOPMENT_BUILD || UNITY_EDITOR
-            NCat.DebugEx.LogFormatColorRed("[RemoteSettingsEx] GetIntList:{0}", str);
+            //NCat.DebugEx.LogFormatColorRed("[RemoteSettingsEx] GetIntList:{0}", str);
 #endif
             string[] splitList = str.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
             for (int i = 0; i < splitList.Length; i++)
@@ -38,7 +38,7 @@ public static class RemoteSettingsEx
         {
             string str = RemoteSettings.GetString(key, defaultStr);
 #if DEVELOPMENT_BUILD || UNITY_EDITOR
-            NCat.DebugEx.LogFormatColorRed("[RemoteSettingsEx] GetFloatList:{0}", str);
+            //NCat.DebugEx.LogFormatColorRed("[RemoteSettingsEx] GetFloatList:{0}", str);
 #endif
             string[] splitList = str.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
             for (int i = 0; i < splitList.Length; i++)
@@ -64,7 +64,7 @@ public static class RemoteSettingsEx
         {
             string str = RemoteSettings.GetString(key, defaultStr);
 #if DEVELOPMENT_BUILD || UNITY_EDITOR
-            NCat.DebugEx.LogFormatColorRed("[RemoteSettingsEx] GetIntDictionary:{0}", str);
+            //NCat.DebugEx.LogFormatColorRed("[RemoteSettingsEx] GetIntDictionary:{0}", str);
 #endif
             string[] splitList = str.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
 
@@ -97,7 +97,7 @@ public static class RemoteSettingsEx
         {
             string str = RemoteSettings.GetString(key, defaultStr);
 #if DEVELOPMENT_BUILD || UNITY_EDITOR
-            NCat.DebugEx.LogFormatColorRed("[RemoteSettingsEx] GetFloatDictionary:{0}", str);
+            //NCat.DebugEx.LogFormatColorRed("[RemoteSettingsEx] GetFloatDictionary:{0}", str);
 #endif
 
             string[] splitList = str.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
